@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Machine Learning App</title>
+    </head>
+    
+    <body>
+        <pre>A basic application that predicts if a patient is living with Kyphosis based on 3 parameters</pre>
+        <form name="form", method="POST", style="text-align: center;">
+            <br>
+            Age: <input type="number" name="age", placeholder="Enter the patient's age" required/>
+            <br><br>
+            Number: <input type="number" name="number", placeholder="Enter the number" required/>
+            <br><br>
+            Start: <input type="number" name="start", placeholder="Enter start" required/>
+            <br><br>
+            <button value="Submit">Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
